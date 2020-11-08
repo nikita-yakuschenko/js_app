@@ -1,12 +1,14 @@
-// 22 Массивы
+// 23 Объекты
 
-const cars = ["Mazda", "Ford", "BMW", "Mercedes"];
-const fib = [0, 1, 1, 2, 3, 5, 8, 13];
+const person = {
+  name: "Nikita",
+  age: 30,
+  isProgrammer: true,
+  languages: ["ru", "en", "de"],
+  greet() {
+    console.log("greet from person");
+  },
+};
 
-// Method
-cars.push("Renault", "Porsche");
-cars.unshift("Volga", "Lada");
-
-// Function
-function addItemToEnd() {}
-console.log(cars);
+console.log(person.name);
+console.log(person.age);
