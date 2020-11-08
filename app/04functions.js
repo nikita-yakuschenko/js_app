@@ -52,8 +52,9 @@
 
 // 20 Параметры по умолчанию
 
-//const sum = (a = 40, b = a * 2) => a + b;
-//console.log(sum());
+const sum = (a = 40, b = a * 2) => a + b;
+console.log(sum(5, 5));
+console.log(a/b**3)
 
 //function sumAll(...all) {
 //let result = 0;
